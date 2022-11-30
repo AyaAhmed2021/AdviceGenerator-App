@@ -1,0 +1,130 @@
+.card {
+  background-color: hsl(217, 19%, 24%);
+  width: 35%;
+  height: 35%;
+  top: 25%;
+  border-radius: 1.25rem!important;
+  position: relative;
+}
+
+.card-body{
+  font-size: 28px;
+  font-weight: 800px;
+  color: hsl(193, 38%, 86%);
+}
+
+.header {
+  color: hsl(150, 100%, 66%);
+  text-align: center;
+  letter-spacing: .3em;
+}
+
+.header h6 {
+  font-size: 0.7rem;
+}
+
+.icon {
+  background-color: hsl(150, 100%, 66%);
+  width: 4%;
+  height: 7%;
+  position: absolute;
+  left: 48%;
+  top: 57%;
+}
+
+.icon img {
+  margin-top: 33%;
+  width: 20px;
+  margin-left: 2%;
+}
+
+.icon:hover {
+  cursor: pointer;
+  box-shadow:  0 0 30px 0 hsl(150deg 100% 66%);
+}
+
+@media (max-width:430px) {
+  .card {
+    width: 100%;
+    height: 50%;
+    top: 25%;
+  }
+
+  .icon {
+    width: 15%;
+    height: 7%;
+    left: 43%;
+    top: 78%;
+  }
+
+  .icon img {
+    margin-top: 34%;
+    margin-left: 1%;
+  }
+}
+
+@media(min-width:431px) and (max-width:450px){
+
+  .card {
+    width: 80%;
+    height: 50%;
+    top: 25%;
+  }
+
+  .icon {
+    width: 15%;
+    height: 7%;
+    left: 43%;
+    top: 78%;
+  }
+
+  .icon img {
+    margin-top: 34%;
+    margin-left: 1%;
+  }
+}
+
+@media(min-width:451px) and (max-width:550px){
+
+  .card {
+    width: 80%;
+    height: 50%;
+    top: 25%;
+  }
+
+  .icon {
+    width: 15%;
+    height: 8%;
+    left: 43%;
+    top: 79%;
+  }
+
+  .icon img {
+    margin-top: 34%;
+    margin-left: 1%;
+  }
+}
+
+
+@media(min-width:551px) and (max-width:767px){
+
+  .card {
+    width: 80%;
+    height: 50%;
+    top: 25%;
+  }
+
+  .icon {
+    width: 11%;
+    height: 9%;
+    left: 44%;
+    top: 79%;
+  }
+
+  .icon img {
+    margin-top: 34%;
+    margin-left: 1%;
+  }
+}
+
+
